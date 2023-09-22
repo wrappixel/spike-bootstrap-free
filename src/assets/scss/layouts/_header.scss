@@ -1,0 +1,62 @@
+.app-header {
+  position: relative;
+  z-index: 12;
+  width: 100%;
+  background: $white;
+  margin-bottom: 24px;
+  box-shadow: $card-box-shadow;
+  border-radius: $card-border-radius;
+  .navbar {
+    min-height: $header-height;
+    padding: 0;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: $navlink-padding;
+          line-height: $header-height;
+          height: $header-height;
+          display: flex;
+          align-items: center;
+          font-size: 20px;
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  min-width: 200px;
+}
+
+@include media-breakpoint-down(lg) {
+  .app-header{
+    .navbar{
+      flex-wrap: nowrap;
+      .navbar-nav{
+        flex-direction: row;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item.dropdown {
+    position: static;
+  }
+}
+
+.notification {
+  position: absolute;
+  top: 22px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+}

@@ -1,0 +1,42 @@
+// ----------------------------------------------
+// Header
+// ----------------------------------------------
+
+$header-height: 75px;
+$navlink-padding: 0 15px;
+
+// ----------------------------------------------
+// Sidebar
+// ----------------------------------------------
+$custom-gray : #c6d1e9;
+$sidebar-text: $dark;
+
+$sidebar-link-padding: 12px 15px;
+$sidebar-icon-size: 23px;
+
+$sidebar-width-full: 270px;
+$sidebar-width-iconbar: 180px;
+$sidebar-width-mini: 65px;
+
+
+// ----------------------------------------------
+// Horizontal Layout
+// ----------------------------------------------
+
+$boxed-width: 1300px; // boxed layout width
+$horizontal-boxed-page-breadcrumb-container-padding-lg: 20px 10px;
+$horizontal-pagewrapper-padding-top-lg: 165px;
+$horizontal-pagewrapper-padding-top-sm: 78px;
+
+// sidebar
+$sidebar-height: 65px;
+$sidebar-li-width: 220px;
+$sidebar-first-level-width: 400px;
+
+$horizontal-list-shadow: 0 15px 30px rgb(0 0 0 / 12%);
+
+// ----------------------------------------------
+// RTL Layout
+// ----------------------------------------------
+$rtl-sidebar-link-padding: inherit;
+$rtl-sidebar-first-level-link-padding: inherit;
