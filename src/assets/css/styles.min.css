@@ -16272,6 +16272,26 @@ textarea.form-control-lg {
 .sidebar-nav ul .sidebar-item .sidebar-link.active {
   color: #0085db;
 }
+.sidebar-nav ul .sidebar-item .first-level .sidebar-item .icon-small {
+  width: 6px;
+  height: 6px;
+  margin: 0 6px;
+  border-radius: 100%;
+  background: var(--bs-body-color);
+}
+.sidebar-nav ul .sidebar-item .first-level .sidebar-item .sidebar-link:hover {
+  background-color: transparent;
+  color: var(--bs-primary);
+}
+.sidebar-nav ul .sidebar-item .first-level .sidebar-item .sidebar-link:hover .icon-small {
+  background: var(--bs-primary);
+}
+.sidebar-nav ul .sidebar-item .first-level .sidebar-item .sidebar-link.active.has-arrow::after {
+  border-color: var(--bs-primary);
+}
+.sidebar-nav ul .sidebar-item .first-level .sidebar-item .sidebar-link.active .icon-small {
+  background: var(--bs-primary);
+}
 .sidebar-nav .sidebar-list .sidebar-list-item {
   padding: 10px 0;
 }

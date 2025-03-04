@@ -84,6 +84,42 @@
         }
 
       }
+
+      .first-level {
+        .sidebar-item {
+
+          .icon-small {
+            width: 6px;
+            height: 6px;
+            margin: 0 6px;
+            border-radius: 100%;
+            background: var(--bs-body-color);
+          }
+
+          .sidebar-link {
+            &:hover {
+              background-color: transparent;
+              color: var(--bs-primary);
+
+              .icon-small {
+                background: var(--bs-primary);
+              }
+            }
+          }
+
+          .sidebar-link.active {
+            &.has-arrow::after {
+              border-color: var(--bs-primary);
+            }
+
+            .icon-small {
+              background: var(--bs-primary);
+            }
+          }
+
+          
+        }
+      }
     }
   }
 
