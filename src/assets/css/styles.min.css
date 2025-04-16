@@ -16386,6 +16386,9 @@ textarea.form-control-lg {
 .app-topstrip .live-preview-drop:hover, .app-topstrip .live-preview-drop:active {
   background-color: #8D70F8;
 }
+.app-topstrip .live-preview-drop.show {
+  background-color: #8D70F8;
+}
 .app-topstrip .get-pro-btn {
   background-color: #8D70F8;
 }
