@@ -16383,7 +16383,7 @@ textarea.form-control-lg {
 .app-topstrip .border-opacity-40 {
   --bs-border-opacity: 0.4;
 }
-.app-topstrip .live-preview-drop:hover {
+.app-topstrip .live-preview-drop:hover, .app-topstrip .live-preview-drop:active {
   background-color: #8D70F8;
 }
 .app-topstrip .get-pro-btn {
@@ -16399,7 +16399,19 @@ textarea.form-control-lg {
   background-color: #90DE03;
 }
 .app-topstrip .link-hover:hover {
-  color: var(--bs-primary) !important;
+  color: #714BFF !important;
+}
+.app-topstrip .dropdown-menu {
+  min-width: 280px;
+  box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.12);
+}
+.app-topstrip .dropdown-menu .dropdown-item {
+  font-size: 16px;
+  color: #000C29;
+  padding: 12px 18px;
+}
+.app-topstrip .dropdown-menu .dropdown-item:hover {
+  background: rgba(0, 12, 41, 0.05);
 }
 
 .app-header {

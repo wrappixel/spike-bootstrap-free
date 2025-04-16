@@ -21,7 +21,7 @@
   }
 
   .live-preview-drop{
-    &:hover{
+    &:hover, &:active{
       background-color: #8D70F8;
     }
   }
@@ -44,7 +44,22 @@
 
   .link-hover{
     &:hover{
-      color: var(--bs-primary) !important; 
+      color: #714BFF !important;
+    }
+  }
+
+  .dropdown-menu{
+    min-width: 280px;
+    box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.12);
+
+    .dropdown-item{
+      font-size: 16px;
+      color: #000C29;
+      padding: 12px 18px;
+
+      &:hover{
+        background: rgba(0, 12, 41, 0.05);
+      }
     }
   }
 }
