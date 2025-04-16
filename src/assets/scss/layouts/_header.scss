@@ -6,6 +6,33 @@
   position: fixed;
   top: 0;
   z-index: 12;
+  background: linear-gradient(90deg, #0F0533 0%, #1B0A5C 100%);
+
+  .text-linear-gradient{
+    background: linear-gradient(90deg, #FFFFFF 0%, #8D70F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .border-opacity-40 {
+    --bs-border-opacity: 0.4; 
+  }
+
+  .get-pro-btn{
+    background-color: #8D70F8;
+  }
+
+  .all-access-pass-btn{
+    background-color: #B3F143;
+  }
+
+  .link-hover{
+    &:hover{
+      color: var(--bs-primary) !important; 
+    }
+  }
 }
 
 .app-header {

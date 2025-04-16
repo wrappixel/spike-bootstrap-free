@@ -19,10 +19,14 @@
     margin: 0 auto;
     padding: $grid-gutter-width;
     transition: 0.2s ease-in;
-    padding-top: 90px;
+    padding-top: 97px; 
 
     @include media-breakpoint-down(lg){
       padding-top: 160px;
+    }
+
+    @include media-breakpoint-down(sm){
+      padding-top: 230px;
     }
   }
 }
@@ -45,11 +49,7 @@
   &[data-sidebar-position="fixed"] {
     .left-sidebar {
       position: fixed;
-      top: 65px;
-
-      @include media-breakpoint-down(lg){
-        top: 131px;
-      }
+      top: 72px; 
     }
   }
 

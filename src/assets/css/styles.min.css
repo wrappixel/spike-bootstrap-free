@@ -16371,6 +16371,26 @@ textarea.form-control-lg {
   position: fixed;
   top: 0;
   z-index: 12;
+  background: linear-gradient(90deg, #0F0533 0%, #1B0A5C 100%);
+}
+.app-topstrip .text-linear-gradient {
+  background: linear-gradient(90deg, #FFFFFF 0%, #8D70F8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.app-topstrip .border-opacity-40 {
+  --bs-border-opacity: 0.4;
+}
+.app-topstrip .get-pro-btn {
+  background-color: #8D70F8;
+}
+.app-topstrip .all-access-pass-btn {
+  background-color: #B3F143;
+}
+.app-topstrip .link-hover:hover {
+  color: var(--bs-primary) !important;
 }
 
 .app-header {
@@ -16457,11 +16477,16 @@ textarea.form-control-lg {
   margin: 0 auto;
   padding: 1.5rem;
   transition: 0.2s ease-in;
-  padding-top: 90px;
+  padding-top: 97px;
 }
 @media (max-width: 991.98px) {
   .body-wrapper .container-fluid, .body-wrapper .container-sm, .body-wrapper .container-md, .body-wrapper .container-lg, .body-wrapper .container-xl, .body-wrapper .container-xxl {
     padding-top: 160px;
+  }
+}
+@media (max-width: 575.98px) {
+  .body-wrapper .container-fluid, .body-wrapper .container-sm, .body-wrapper .container-md, .body-wrapper .container-lg, .body-wrapper .container-xl, .body-wrapper .container-xxl {
+    padding-top: 230px;
   }
 }
 
@@ -16476,12 +16501,7 @@ textarea.form-control-lg {
 
 #main-wrapper[data-layout=vertical][data-sidebar-position=fixed] .left-sidebar {
   position: fixed;
-  top: 65px;
-}
-@media (max-width: 991.98px) {
-  #main-wrapper[data-layout=vertical][data-sidebar-position=fixed] .left-sidebar {
-    top: 131px;
-  }
+  top: 72px;
 }
 #main-wrapper[data-layout=vertical][data-header-position=fixed] .body-wrapper > .container-fluid, #main-wrapper[data-layout=vertical][data-header-position=fixed] .body-wrapper > .container-sm, #main-wrapper[data-layout=vertical][data-header-position=fixed] .body-wrapper > .container-md, #main-wrapper[data-layout=vertical][data-header-position=fixed] .body-wrapper > .container-lg, #main-wrapper[data-layout=vertical][data-header-position=fixed] .body-wrapper > .container-xl, #main-wrapper[data-layout=vertical][data-header-position=fixed] .body-wrapper > .container-xxl {
   padding-top: calc(75px + 30px);
