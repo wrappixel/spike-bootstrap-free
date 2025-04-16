@@ -16384,19 +16384,19 @@ textarea.form-control-lg {
   --bs-border-opacity: 0.4;
 }
 .app-topstrip .live-preview-drop:hover {
-  background-color: #8D70F8 !important;
+  background-color: #8D70F8;
 }
 .app-topstrip .get-pro-btn {
   background-color: #8D70F8;
 }
 .app-topstrip .get-pro-btn:hover {
-  background-color: #714BFF !important;
+  background-color: #714BFF;
 }
 .app-topstrip .all-access-pass-btn {
   background-color: #B3F143;
 }
 .app-topstrip .all-access-pass-btn:hover {
-  background-color: #90DE03 !important;
+  background-color: #90DE03;
 }
 .app-topstrip .link-hover:hover {
   color: var(--bs-primary) !important;
@@ -16495,7 +16495,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .body-wrapper .container-fluid, .body-wrapper .container-sm, .body-wrapper .container-md, .body-wrapper .container-lg, .body-wrapper .container-xl, .body-wrapper .container-xxl {
-    padding-top: 230px;
+    padding-top: 185px;
   }
 }
 
