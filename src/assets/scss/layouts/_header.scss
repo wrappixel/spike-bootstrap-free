@@ -20,12 +20,26 @@
     --bs-border-opacity: 0.4; 
   }
 
+  .live-preview-drop{
+    &:hover{
+      background-color: #8D70F8;
+    }
+  }
+
   .get-pro-btn{
     background-color: #8D70F8;
+
+    &:hover{
+      background-color: #714BFF; 
+    }
   }
 
   .all-access-pass-btn{
     background-color: #B3F143;
+
+    &:hover{
+      background-color: #90DE03;
+    }
   }
 
   .link-hover{

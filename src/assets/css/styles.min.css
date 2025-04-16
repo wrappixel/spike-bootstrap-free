@@ -16383,11 +16383,20 @@ textarea.form-control-lg {
 .app-topstrip .border-opacity-40 {
   --bs-border-opacity: 0.4;
 }
+.app-topstrip .live-preview-drop:hover {
+  background-color: #8D70F8 !important;
+}
 .app-topstrip .get-pro-btn {
   background-color: #8D70F8;
 }
+.app-topstrip .get-pro-btn:hover {
+  background-color: #714BFF !important;
+}
 .app-topstrip .all-access-pass-btn {
   background-color: #B3F143;
+}
+.app-topstrip .all-access-pass-btn:hover {
+  background-color: #90DE03 !important;
 }
 .app-topstrip .link-hover:hover {
   color: var(--bs-primary) !important;
